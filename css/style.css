@@ -1,0 +1,213 @@
+/* common css start */
+*{
+    padding: 0px;
+    margin: 0px;
+    outline: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.justify_content{
+    justify-content: space-between;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2{
+    font-family: 'Abril Fatface', cursive; 
+}
+h3,h4,h5,h6,button,a{
+    font-family: 'Ubuntu', sans-serif;
+}
+/* common css end */
+/* top bar start */
+#top_bar{
+    background-color:#0f2f44 ;
+    padding:18px ;
+    color: #dfe1e3;
+}
+.align_items{
+    align-items: center;
+}
+/* top bar end */
+/* nav start */
+nav div ul li a{
+    color: #222222;
+    transition: .6s;
+    
+}
+nav div ul li{
+    padding:40px 19px;
+}
+nav div ul li a:hover{
+    color: #ffd462;
+    background-color:#fff9e6 ;
+    
+}
+nav div ul li button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: #999999;
+    border: 1px solid #dedede;
+    background:none;
+  
+}
+/* nav end */
+/* banner section start */
+#banner{
+    background-image:url(./../img/background1.jpg) ;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#banner .container h3{
+    font-size:50px;
+    text-transform: capitalize;
+   
+}
+#banner .container h2{
+ font-size: 80px;
+ text-transform: uppercase;
+}
+#banner .container h4{
+    font-size: 32px;
+    text-transform:capitalize;
+    color:#8484bf;
+    letter-spacing: 18px ;
+}
+#banner .banner_items .inner_container{
+   width: 45%;
+}
+#banner .banner_items a{
+    color: #8484bf;
+    background-color: white;
+    padding:15px 20px ;
+    border-radius: 5%;
+    transition: .5s;
+}
+#banner .banner_items a:hover{
+    color: white;
+    background-color: #8484bf;
+}
+#banner .banner_items button{
+    color: #8484bf;
+    background-color: #ffffff;
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+    font-size: 20px;
+    border: none;
+    transition: .5s;
+    cursor: pointer;
+    box-shadow: 0 7px 20px 0 rgba( 132, 132, 191,0.15);
+}
+#banner .banner_items button:hover{
+    color: #ffffff;
+    background-color: #8484bf;
+}
+/* banner section end */
+/* about us section start */
+#about_us .about_us_items{
+    display: flex;
+    
+    
+}
+#about_us .about_us_items .p1{
+     padding:  30px 30px 30px 0px;
+}
+.about_us_items{
+    padding: 80px 0;
+}
+#about_us .about_us_items ul li{
+    padding: 0 30px;
+    line-height: 30px;
+} 
+#about_us h2{
+    color: #0f2f44;
+    font-size: 32px;
+}
+#about_us .about_us_items a {
+   color: #0f2f44;
+   background-color: #ffffff;
+   padding:15px 20px ;
+   border-radius: 5%;
+   font-size: 20px;
+   transition: 0.5s;
+   box-shadow: 0 7px 20px 0 rgba(0,0,0,.15);
+}
+#about_us .about_us_items a:hover{
+    color:#0f2f44 ;
+    background-color:#ffc712;
+    box-shadow: 0 7px 20px 0 rgba(255,199,18.25);
+}
+#about_us .about_us_items button{
+    color: #0f2f44;
+    background-color: #ffffff;
+    padding:15px 20px ;
+    border-radius: 5%;
+    border: none;
+    font-size: 20px;
+    transition: 0.5s;
+    box-shadow: 0 7px 20px 0 rgba(0,0,0,.15);
+}
+#about_us .about_us_items button:hover{
+    color:#0f2f44 ;
+    background-color:#ffc712;
+    box-shadow: 0 7px 20px 0 rgba(255,199,18.25);
+}
+/* about us section end */
+/* our skills section start */
+#our_skills .our_skills_2{
+    text-align: right;
+    align-items: end;
+}
+#our_skills{
+    padding: 100px 0;
+}
+/* our skills section end */
+/* our services section start */
+#our_services .our_services_text{
+   text-align: center;
+}
+#our_services .our_services_text h2{
+    color: #0f2f44;
+    font-size: 32px;
+}
+.item{
+    width:calc(100% / 3 - 30px);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+}
+.left{
+    width: 30%;
+    align-items: center;
+}
+.right{
+    width: 70%;
+}
+.item {
+    margin:15px ;
+}
+.item:hover{
+    background-color:#0f2f44;
+
+}
+/* our services section end */
